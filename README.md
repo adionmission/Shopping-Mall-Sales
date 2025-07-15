@@ -98,7 +98,7 @@ First, we check if normal distribution is valid or nor.
 
 The sales values are overlapping on the line. So, the sales data is normally distributed.
 
-#### T-Test on sales attribute
+## T-Test on sales attribute
 
 The sales data is quantitative and we don’t know the population standard deviation. So, we will conduct T-test.
 
