@@ -36,6 +36,14 @@ Removed city column
 
 ## Data Manipulation
 
+Corrected “3 Carolina” into “Carolina”
+
+Corrected “3 Dakota” into “Dakota”
+
+Corrected “4 Virginia” into “Virginia”
+
+Added a column gender
+
 Converted string into integers for statistical analysis.
 
 | Serial Number | Attribute     | Class      | Names                                                          |
@@ -47,29 +55,21 @@ Converted string into integers for statistical analysis.
 | 5             | Sub Category  | 1–17       | Bookcases; Chairs; Labels; Tables; Storage; Furnishings; Art; Phones; Binders; Appliances; Paper; Accessories; Envelopes; Fasteners; Supplies; Copiers; Machines |
 | 6             | Gender        | 1, 2       | Male; Female                                                   |
 
-Corrected “3 Carolina” into “Carolina”
-
-Corrected “3 Dakota” into “Dakota”
-
-Corrected “4 Virginia” into “Virginia”
-
-Added a column gender
-
 ## Descriptive Analysis
 
 How many people people bought the products at a certain price.
 
 ![Screenshot-1](Images/1.png)
 
-How many times a category was bought and in this case we can see than most of the time category 2 was bought which is Office Supplies
+How many times a category was bought and in this case we can see than most of the time category 2 was bought which is <code>Office Supplies</code>
 
 ![Screenshot-2](Images/2.png)
 
-How many times a sub-category was bought and in this case sub-category 9 was bought most frequently that is Binders.
+How many times a sub-category was bought and in this case sub-category 9 was bought most frequently that is <code>Binders</code>.
 
 ![Screenshot-2](Images/3.png)
 
-Maximum value of sales were received from category 3. This means category 3, which was machines, was most expensive.
+Maximum value of sales were received from category 3. This means category 3, which was <code>machines</code>, was most expensive.
 
 ![Screenshot-2](Images/4.png)
 
@@ -77,15 +77,15 @@ More sales came from males than females.
 
 ![Screenshot-2](Images/5.png)
 
-Number of customers belonging to a specific region. We can see that most customers belong from region 4 that is West.
+Number of customers belonging to a specific region. We can see that most customers belong from region 4 that is <code>West</code>.
 
 ![Screenshot-2](Images/6.png)
 
-Number of customers belonging to a specific segment. We can see that most customers belong from segment 1 that is Consumer.
+Number of customers belonging to a specific segment. We can see that most customers belong from segment 1 that is <code>Consumer</code>.
 
 ![Screenshot-2](Images/7.png)
 
-Number of customers who choosed a shipping mode. We can see that most customers choosed segment 3 that is Standard Class.
+Number of customers who choosed a shipping mode. We can see that most customers choosed segment 3 that is <code>Standard Class</code>.
 
 ![Screenshot-2](Images/8.png)
 
@@ -108,7 +108,7 @@ The sales data is quantitative and we don’t know the population standard devia
 |----------|--------|------|-------|
 | Sales    | -0.442 | 9798 | 0.659 |
 
-The p-value is greater than 0.05, so we reject alternative hypothesis and we can say there is no significance difference in sales data.
+The p-value is greater than 0.05, so we reject alternative hypothesis and we can say there is no significance difference in sales data. This can also be seen in quartile graph.
 
 #### Linear Regression Summary
 
